@@ -1,0 +1,35 @@
+                                                  GLOBAL TEMPERATURE TIME SERIES
+   GLOBAL TEMPERATURE MEASURUMENT:
+ 
+   Global average temperature measurement is very important in determining the changes that occur over time in the surface temperature of Earth. Global average temperature calculations are made by combining land and sea temperature data. However, the results are given as temperature anomalies, not absolute temperature values. The temperature anomaly can be defined as the temperature difference that occurs above and below the average temperature value.
+   There are three centers in the world that measure the average global temperature, and these centers use different data analysis methods. These are: HadCRUT, which evaluates the data obtained by the UK National Meteorology Center (Met Office) and the University of Eastern Anglia, NOAA NCDC named analysis methods for assessing data obtained by the NASA GLISS and the US National Oceanic and Atmospheric Administration, where the data obtained by the NASA Goddard Space Research Center are evaluated.
+   Temperature datas of lands are obtained by measuring the temperature of the air above the surface of the land and measurements are usually made by meteorological stations. In sea surface temperature measurements, buoys and boats are mostly used. From time to time, the data obtained from the satellites can be included in calculations. 
+   The spherical mean temperature calculations are divided into surface areas (these dimensions are for HadCRUT and NOAA NCDC analysis methods, 5 ° latitude-5 ° longitude and for NASA GLISS analysis method, 2 ° latitude-2 ° longitude squares). The temperatures of these areas are determined by the average of the data obtained from the stations above them.
+   The biggest problem with global average temperature calculations is that the number of data and measurement stations is small (for example, polar regions and deserts). In HadCRUT analysis methods, regions where data can not be obtained are not included in the calculations. In NASA GISS and NOAA NCDC methods, these data gaps are filled in by statistical calculations.
+
+   GLOBAL TEMPERATURE DATASET:(GlobalTemperatures.csv)
+
+   Kaggle have reloaded the data from a newer compilation collected by Berkeley Earth at the Lawrence Berkeley National Laboratory. The Berkeley Earth Surface Temperature Study combines 1.6 billion temperature reports from 16 pre-existing archives. It is packaged and allows you to enter interesting subgroups (for example, by country).Kaggle publish source data and code for the transformations they apply. They also use methods that allow air observations from shorter time series; this indicates that less observation is required.
+
+   
+   The dataset uploaded from KAggle includes global monthly mean temperature datas in degrees Celsius from 1750-01-01 to 2015-12-01. It has 3192 rows and 9 columns. These columns: 'date','LandAverageTemperature','LandAverageTemperatureUncertainty','LandMaxTemperature','LandMaxTemperatureUncertainty',  'LandMinTemperature','LandMinTemperatureUncertainty','LandAndOceanAverageTemperature','LandAndOceanAverageTemperatureUncertainty',
+respectively. 
+    
+
+- Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures
+
+- LandAverageTemperature: This column gives information about global average land temperature in degrees Celsius.
+
+- LandAverageTemperatureUncertainty:This column gives information about the 95% confidence interval around the average.
+
+- LandMaxTemperature: This column gives information about global average maximum land temperature in degrees Celsius.
+
+- LandMaxTemperatureUncertainty:This column gives information about the 95% confidence interval around the maximum land temperature.
+
+- LandMinTemperature:This column gives information about global average minimum land temperature in degrees Celsius.
+
+- LandMinTemperatureUncertainty:This column gives information about the 95% confidence interval around the minimum land temperature.
+
+- LandAndOceanAverageTemperature:This column gives information about global average land and ocean temperature in degrees Celsius.
+
+- LandAndOceanAverageTemperatureUncertainty:This column gives information about the 95% confidence interval around the global average land and ocean temperature.
